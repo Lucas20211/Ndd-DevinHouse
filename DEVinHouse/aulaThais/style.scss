@@ -1,4 +1,7 @@
-$colorprimary: rgb(121, 72, 72);
+$colorprimary: rgb(19, 10, 51);
+$colorSegundary: white;
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,4 +15,7 @@ body{
     height: 100vh;
 
     background-color: $colorprimary;
+}
+h2{
+    color: $colorSegundary;
 }
