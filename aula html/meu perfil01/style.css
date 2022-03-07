@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    min-width: min-content; /* mantem os arquivos responsivos*/
     /*background-color: aqua;*/
     margin: auto;
     padding: 0;       
@@ -43,7 +44,7 @@
 /* -------------- Footer ----------------*/
 
 footer{
-    position: fixed;
+    position: fixed; /* Manter rodape fixado em baixo - config padrao*/
     right: 0;
     bottom: 0;
     left: 0;
