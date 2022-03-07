@@ -1,24 +1,15 @@
 *{
-    margin: 10px;
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-color: yellow;
+.header{
+    background: url(/header.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-.semana_titulo{
-    display: flexbox;
-    text-align: center;
-    font-family: Verdana, sans-serif;
-    font-size: 20px;
-    color: rgb(128, 64, 0);
-}
-.texto_p{
-    font-size: 14px;
-
-}
-.botao{
+.navbar ul li a{
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
     color: black;
-    padding: 10px;
-    border-color: red;
-    border: 2px;
-    margin: 20px;
 }
