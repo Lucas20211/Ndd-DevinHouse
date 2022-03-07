@@ -59,3 +59,8 @@
     width: 100%;
     height: 100vw;
 }
+.video{
+    margin: 10px;
+    width: 1280px;
+    height: 720px;
+}
