@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="description" content="A descrição é aqui"> 
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icones/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icones/favicon-16x16.png">
+    <link rel="manifest" href="icones/site.webmanifest">
     <title>DEVinHouse</title>
 </head>
 
@@ -14,23 +18,42 @@
             <nav class="navbar">
                 <a class="logo" href="../exercicio/imagem.html" target="blank">logo</a>
                 <ul>
-                    <li><a href="#" target="blank">Home</a></li>
-                    <li><a href="#" target="blank">Imagens</a></li>
-                    <li><a href="#" target="blank">Semana 1</a></li>
+                    <li><a class="home_btn" href="./index.html" target="blank">Home</a></li>
+                    <li><a class="imagem_btn" href="./imagem.html" target="blank">Imagens</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div>
+        <div class="ex">
+            <h1 class="semana">Semana 1</h1>
+            <p class="parag">Este é o resultado do primeiro exercício da primeira semana do curso DEVinHouse. 🖥️</p>
+        </div>
+        
         <section class="section">
-            <h1>video youtube</h1>
+            <h1 class="titulo_video">Video youtube</h1>
+            <p class="description">Esse video é uma timelapse de website</p>
             <div class="video">
-                <iframe src="https://rr1---sn-bg07dnkk.googlevideo.com/videoplayback?expire=1646713790&ei=XocmYu_4LdOKsfIPtvKsiAU&ip=209.127.173.17&id=o-AG_vEXiiyvbalgwNOhXcMpvEbgCjc_mmp2xCqkYL0tar&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&ns=Owzg4ZOX5BQTw0tOsGXQ1cIG&cnr=14&ratebypass=yes&dur=493.516&lmt=1645167241544085&fexp=24001373,24007246&c=WEB&txp=6210224&n=5oBR821ykfosvg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgB1-0VKDYjWboBZaFIC-P21DhT8r2kI7l5SXGCPc7ooICIQCLraqpLWlQMj4Se88BErGAvjGFF3tOxG8AO_JFcNd97Q%3D%3D&redirect_counter=1&cm2rm=sn-a5me7z7e&req_id=5590da1ff444a3ee&cms_redirect=yes&cmsv=e&mh=Yg&mip=2804:e24:fea6:501:3818:5b1:8063:449e&mm=34&mn=sn-bg07dnkk&ms=ltu&mt=1646691620&mv=u&mvi=1&pl=42&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgTa2atjQAkCI4uTssygSIz2GtnAgkotA-FRiiH2TnbVcCIQDU7xN8r1RFHY79iPfXywswAykE6O-jbONJYEAFrrNqnQ%3D%3D"><iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MWyYwf5AysY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>  
+            <div><a href="./imagem.html" target="blank" class= "btn" ><ion-icon name="arrow-redo-outline"></ion-icon></a></div>
+            
         </section>
+        
+        
     </div>
+    <footer class="roda_pe">
+        <p> copyright &copy;2022 LucasDev. </p>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/Lucas95Martins" target="blank"><ion-icon name="logo-facebook">Facebook</ion-icon></a></li>
+            <li><a href="https://github.com/lucas20211" target="blank"><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/lucas95martins/" target="blank"><ion-icon name="logo-instagram">instagram</ion-icon></a></li>
+            <li><a href="https://www.linkedin.com/in/lucasmartins2021/" target="blank"><ion-icon name="logo-linkedin">Linkedin</ion-icon></a></li>
+        </ul>
+    </footer>
     
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
     
 </html>
