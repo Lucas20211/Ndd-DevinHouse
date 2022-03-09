@@ -4,21 +4,15 @@
     font-family: Verdana, sans-serif;
 }
 .logo{
-    /*background-image: url(../exercicio/icones/favicon-32x32.png);
+    background-image: url(../exercicio/icones/favicon-32x32.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;*/
+    display: flex;
     justify-content: flex-start;
-    text-transform: uppercase;
-    text-decoration: none;
     letter-spacing: 2px;
     margin: 20px;
-    padding: 3px;
+    padding: 16px;
     border-style: hidden;
-    background-color: rgba(59, 140, 187, 0.4);
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    
+    border-radius: 5px; 
 }
 
 .navbar{
@@ -61,7 +55,7 @@
     left: 0px;
     width: 0px;
     height: 28px;
-    background: rgba(247, 182, 3, 0.342);
+    background: rgba(247, 149, 3, 0.342);
     border-radius: 5px;
     transition: all 1s ease;
 }
@@ -74,7 +68,10 @@
     height: 12vh;
     background-color: rgb(59, 140, 187);
 }
-.semana{
+h3{
+    padding: 10px;
+}
+.ex_exercicio{
     margin-top: 10px;
     padding: 15px;
     display: block;
