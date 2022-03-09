@@ -6,14 +6,16 @@ $colorTerceary: #1597E5;
 $colorsmall: #69DADB;
 $colorBg: rgb(255, 255, 255);
 $fontFamily: 'Smooch Sans', 'Sans serif';
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to left, $colorTerceary, $colorsmall);
 }
 .ex_titulo{
-   margin: 0px;
-   padding: 20px 00px 20px 0px;
-   width: 100%;
+   margin: 10px;
+   padding: 0px;
    font-family: $fontFamily;
    font-size: 40px;
    letter-spacing: 2px ;
@@ -28,8 +30,7 @@ $fontFamily: 'Smooch Sans', 'Sans serif';
 .box{
     position: absolute;
     text-align: center;
-    width: 100%;
-    padding: 10px 0px;
+    padding: 0px;
     top: 140px;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -40,10 +41,10 @@ $fontFamily: 'Smooch Sans', 'Sans serif';
     text-shadow: $colorSecundary (.1rem .1rem .1rem);
     letter-spacing: 1px;
     font-size: 26px;
-
+    
 }
 .input {
-    padding: 10px;
+    padding: 0px;
     width: 600px;
     height: 50px;
     background: $colorsmall;
@@ -81,15 +82,11 @@ i{
     justify-content: center;
     gap: 40px;
     
-    width: 100%;
-    padding: 10px; 
     background: linear-gradient(to left, $colorTerceary, $colorsmall); 
 }
 .evento{
     margin: 98px 0px 0px 0px;
-    padding: 10px;
     border-top: 3px solid $colorPrimary;
-    width: 100%;
     text-align: center;
     font-family: $fontFamily;
     text-shadow: $colorSecundary (.1rem .1rem .1rem);
