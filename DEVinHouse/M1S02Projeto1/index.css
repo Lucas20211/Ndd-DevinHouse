@@ -6,14 +6,13 @@
 
 .ex_titulo {
   margin: 0px;
-  padding: 20px 0px 20px 0px;
-  width: 100%;
+  padding: 5px;
   font-family: "Smooch Sans", "Sans serif";
   font-size: 40px;
   letter-spacing: 2px;
   border-bottom: 3px solid #193498;
   text-align: center;
-  text-shadow: #113CFC 0.1rem 0.2rem 0.1rem;
+  text-shadow: #113CFC 0.075rem 0.2rem 0.1rem;
   background: linear-gradient(to left, #1597E5, #69DADB);
 }
 
@@ -21,11 +20,10 @@
 .box {
   position: absolute;
   text-align: center;
-  width: 100%;
-  padding: 10px 0px;
-  top: 140px;
+  top: 110px;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
   background: linear-gradient(to left, #1597E5, #69DADB);
 }
 
@@ -34,6 +32,7 @@
   text-shadow: #113CFC 0.1rem 0.1rem 0.1rem;
   letter-spacing: 1px;
   font-size: 26px;
+  padding: 2px;
 }
 
 .input {
@@ -78,16 +77,12 @@ i {
   display: grid;
   justify-content: center;
   gap: 40px;
-  width: 100%;
-  padding: 0px;
   background: linear-gradient(to left, #1597E5, #69DADB);
 }
 
 .evento {
-  margin: 98px 0px 0px 0px;
-  padding: 0px;
+  margin: 98px 0px 0px;
   border-top: 3px solid #193498;
-  width: 100%;
   text-align: center;
   font-family: "Smooch Sans", "Sans serif";
   text-shadow: #113CFC 0.1rem 0.1rem 0.1rem;
@@ -98,10 +93,11 @@ i {
 
 .container img {
   margin: 2px;
-  padding: 1px;
+  padding: 0px;
   border: 2px solid black;
   width: 230px;
   height: 160px;
+  background: linear-gradient(to left, #1597E5, #69DADB);
 }
 
 .evento_img {
@@ -112,6 +108,45 @@ i {
   color: #193498;
   letter-spacing: 1px;
   font-size: 20px;
+}
+
+/*-------- Formulario -----*/
+.table {
+  width: 100%;
+  height: 700px;
+  padding: 40px 0px;
+  background: linear-gradient(to left, #1597E5, #69DADB);
+}
+
+.form {
+  padding: 40px;
+  margin: 0 auto;
+  width: 50%;
+  font-family: "Smooch Sans", "Sans serif";
+  font-weight: 600;
+  font-size: 24px;
+  box-shadow: -4px 4px 3px #193498;
+  background: linear-gradient(to left, #1597E5, #113CFC);
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 0.75em;
+  padding: 0.25em;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
+
+.form_btn {
+  margin-left: 40%;
+  padding: 10px;
+  font-family: "Smooch Sans", "Sans serif";
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #69DADB;
+  border: 2px solid #113CFC;
 }
 
 /*---   footer   ---*/
@@ -130,7 +165,7 @@ footer {
   justify-content: center;
   background-color: black;
   height: auto;
-  padding-top: 10px;
+  padding-top: 5px;
   color: white;
 }
 
@@ -148,7 +183,5 @@ footer {
   color: white;
   margin-left: 1rem;
 }
-
-/*# sourceMappingURL=index.css.map */
 
 /*# sourceMappingURL=index.css.map */
