@@ -79,13 +79,13 @@ i {
   justify-content: center;
   gap: 40px;
   width: 100%;
-  padding: 10px;
+  padding: 0px;
   background: linear-gradient(to left, #1597E5, #69DADB);
 }
 
 .evento {
   margin: 98px 0px 0px 0px;
-  padding: 10px;
+  padding: 0px;
   border-top: 3px solid #193498;
   width: 100%;
   text-align: center;

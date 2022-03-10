@@ -11,7 +11,6 @@ $fontFamily: 'Smooch Sans', 'Sans serif';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to left, $colorTerceary, $colorsmall);
 }
 .ex_titulo{
    margin: 10px;
@@ -34,14 +33,13 @@ $fontFamily: 'Smooch Sans', 'Sans serif';
     top: 140px;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: linear-gradient(to left, $colorTerceary, $colorsmall);
+    
 }
 .pesquisa{
     font-family: $fontFamily;
     text-shadow: $colorSecundary (.1rem .1rem .1rem);
     letter-spacing: 1px;
     font-size: 26px;
-    
 }
 .input {
     padding: 0px;
@@ -81,11 +79,10 @@ i{
     display: grid;
     justify-content: center;
     gap: 40px;
-    
     background: linear-gradient(to left, $colorTerceary, $colorsmall); 
 }
 .evento{
-    margin: 98px 0px 0px 0px;
+    margin: 98px 0px 0px ;
     border-top: 3px solid $colorPrimary;
     text-align: center;
     font-family: $fontFamily;
@@ -96,11 +93,11 @@ i{
 }
 .container img{
     margin: 2px;
-    padding: 1px;
+    padding: 0px;
     border: 2px solid black;
     width: 230px;
     height: 160px;
-
+    background: linear-gradient(to left, $colorTerceary, $colorsmall);
 }
 .evento_img{
     display: flex;
@@ -111,8 +108,6 @@ i{
     letter-spacing: 1px;
     font-size: 20px;
 }
-
-
 
 /*---   footer   ---*/
 
@@ -129,10 +124,8 @@ footer{
     justify-content: center;
     background-color: black;
     height: auto;
-    
-    padding-top: 10px;
+    padding-top: 5px;
     color: white;
-
 }
 .social{
     list-style: none;
