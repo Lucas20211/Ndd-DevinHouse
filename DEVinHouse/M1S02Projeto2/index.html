@@ -76,10 +76,10 @@
     </button>
   </div>
 
-  <!-- Layout grid com cards ou description -->
-
+  <!-- GRID 01 -->
+<div style="background-image: url(./img/bgazul.jpg) ; background-repeat: no-repeat; background-size: cover;">
   <div class="row p-2 pb-2 m-0"
-    style="background-image: url(./img/bgazul.jpg) ; background-repeat: no-repeat; background-size: cover;">
+  >
 
     <div class="col-sm-4 mt-5">
       <div class="card" style="width: 20rem;">
@@ -115,6 +115,94 @@
     </div>
   </div>
 
+  <!-- /GRID 01-->
+
+  <!-- GRID 02-->
+
+  <div class="row p-2 pb-2 m-0">
+
+    <div class="col-sm-4 mt-5">
+      <div class="card" style="width: 20rem;">
+        <img src="./img/maldiva.png" class="card-img-top" alt="Maldivas">
+        <div class="card-body">
+          <h5 class="card-title">Conheça as Maldias</h5>
+          <p class="card-text">Com passeios incriveis venha realizar seus sonhos. Pacotes com preços ótimos! </p>
+          <button onclick="maldivas_modal()" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mt-5">
+      <div class="card" style="width: 20rem;">
+        <img src="./img/pariss.jpg" class="card-img-top" alt="Paris">
+        <div class="card-body">
+          <h5 class="card-title">Conheça Paris</h5>
+          <p class="card-text">"A cidade que não dorme."<br>Aproveite cada momento com seu parceiro(a).</p>
+          <button onclick="paris_modal()" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4 mt-5">
+      <div class="card" style="width: 20rem;">
+        <img src="./img/chinaa.jpg" class="card-img-top" alt="China">
+        <div class="card-body">
+          <h5 class="card-title">Conheça China</h5>
+          <p class="card-text">Com uma cultura explêndida. China pode lhe trazer momentos inesquecíveis</p>
+          <button onclick="china_modal()" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- /grid 02-->
+  <!-- FOOTER -->
+  <footer class="py-5">
+    <div class="row p-3 pb-0 m-0">
+      <div class="col-3 text-center">
+        <h5>Navegação</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Viagens</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lugares</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contatos</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre</a></li>
+        </ul>
+      </div>
+
+      <div class="col-3">
+        <img src="./img/logo.jpg" class="img-thumbnail w-50" alt="...">
+      </div>
+
+
+
+      <div class="col-4 offset-1">
+        <form>
+          <h5>Para mais informações contate-nos</h5>
+          <p>Email para contato</p>
+          <div class="alert alert-dark text-center p-2 " role="alert">
+            empresadeviagen@viagens.com
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between py-2 my-2 pb-1 border-top">
+      <p>© 2022 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg></a></li>
+      </ul>
+    </div>
+  </footer>
+  <!-- /FOOTER -->
 
 
 
