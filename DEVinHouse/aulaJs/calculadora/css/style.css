@@ -6,7 +6,7 @@
     --color-roxorover: #b775dd; 
     --color-white: white;
 }
-
+/*-------------------*__*------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +16,7 @@
 body {
     background-color: var(--color-yellow);
 }
+/*--------------------------------------------------*/
 .calculator{
     width: 250px;
     position: absolute;
@@ -29,10 +30,12 @@ body {
 }
 table{
     border: 1px solid var(--color-yellow);
-}
-table td {
+} 
+/* alinha as colunas da calculador ----------*/
+table td { 
     display: inline-block;
 }
+/* configuração geral do botões --------------*/
 .btn {
     margin: 3px;
     width: 50px;
@@ -43,7 +46,8 @@ table td {
     color: var(--color-white);
     font-size: 16px;
     transition: all 500ms ease-in-out;
-}
+} 
+/* Efeitos de CORES/HOVER dos botoes ------------*/
 .btn:hover{
     background-color: var(--color-yellow);
 }
@@ -79,6 +83,7 @@ table td {
     word-wrap: break-word;
     border-bottom: 1px solid var(--color-pink);
 }
+/* == TITULO DA CALCULADORA -----------------*/
 .titulo{
     color: var(--color-yellow);
     border-bottom: 1px solid var(--color-yellow);
