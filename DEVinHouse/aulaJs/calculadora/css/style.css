@@ -1,3 +1,12 @@
+:root{
+    --color-black: #000000;
+    --color-yellow: #FFC600;
+    --color-pink: #E900FF;
+    --color-roxo: #5800FF;
+    --color-roxorover: #b775dd; 
+    --color-white: white;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +14,7 @@
     font-family: 'cursiva', sans-serif;
 }
 body {
-    background-color: #2aa586;
+    background-color: var(--color-yellow);
 }
 .calculator{
     width: 250px;
@@ -14,12 +23,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
+    box-shadow: 1px 1px 20px 5px var(--color-pink);
     padding: 10px;
-    background-color: black;
+    background-color: var(--color-black);
+}
+table{
+    border: 1px solid var(--color-yellow);
 }
 table td {
     display: inline-block;
-
 }
 .btn {
     margin: 3px;
@@ -27,31 +39,37 @@ table td {
     height: 40px;
     cursor: pointer;
     border: none;
-    background-color: #0c1a21;
-    color: aliceblue;
+    background-color: var(--color-roxo);
+    color: var(--color-white);
     font-size: 16px;
     transition: all 500ms ease-in-out;
 }
 .btn:hover{
-    background-color: #162f3b;
+    background-color: var(--color-yellow);
 }
 .ac{
-    background-color: #165f58;
+    background-color: var(--color-pink);
 }
 .ac:hover{
-    background-color: #2e978d;
+    background-color: var(--color-roxorover);
+}
+.neg{
+    background-color: var(--color-pink);
+}
+.neg:hover{
+    background-color: var(--color-roxorover);
 }
 .especial {
-    background-color: #165f58;
+    background-color: var(--color-pink);
 }
 .especial:hover {
-    background-color: #0e413b;
+    background-color: var(--color-roxorover);
 }
 .igual{
-    background-color: #165f58;
+    background-color: var(--color-pink);
 }
 .igual:hover{
-    background-color: #2e978d;
+    background-color: var(--color-roxorover);
 }
 .result{
     height: 100px;
@@ -59,5 +77,5 @@ table td {
     text-align: right;
     font-size: 35px;
     word-wrap: break-word;
-    border-bottom: 1px solid #165f58;
+    border-bottom: 1px solid var(--color-pink);
 }
