@@ -79,3 +79,13 @@ table td {
     word-wrap: break-word;
     border-bottom: 1px solid var(--color-pink);
 }
+.titulo{
+    color: var(--color-yellow);
+    border-bottom: 1px solid var(--color-yellow);
+    box-shadow: 1px 2px 10px 2px var(--color-roxo);
+    background-color: var(--color-pink);
+    margin: 20px;
+    padding: 2px;
+    width: 442px;
+    height: 40px;
+}
