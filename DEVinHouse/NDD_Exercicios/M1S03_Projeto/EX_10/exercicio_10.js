@@ -5,11 +5,10 @@
 function cliqueAqui () {
 
     var numeroIncial = parseFloat(prompt("digite seu Valor Inicial : " ));
-    var numeroRaiz = parseFloat(prompt("Digite seu Valor Final : "));
-    var termo = 10;       
+    var numeroRaiz = parseFloat(prompt("Digite seu Valor Final : "));     
     var pa = '';
     
-    for( var conta = 1; conta <= termo; conta++){
+    for( var conta = 1; conta <= 10; conta++){
         pa += numeroIncial; 
         numeroIncial += numeroRaiz;
     } 
