@@ -6,25 +6,22 @@
 
 
 
-function cliqueAqui (){
+function cliqueAqui (){             // funcao para o HTML.
     
-    var anoNascido = prompt("Qual seu ano de nascimento? ");
-    var anoAtual = prompt("Qual o ano atual? ");
-    var resultado =  anoAtual - anoNascido;
-    var idade = 0;
-    var currentTime = new Date();
-    var anoAtualizado = currentTime.getFullYear();
+    var anoNascido = prompt("Qual seu ano de nascimento? ");  // ano de nascimento do usuario
+    var anoAtual = prompt("Qual o ano atual? ");              // ano atual que o usuario deseja colocar
+    var resultado =  anoAtual - anoNascido;                   // calculo da idade
+    var idade = '';                                           // definindo a idade sem valor
+    var currentTime = new Date();                             // definindo o ano automatico
+    var anoAtualizado = currentTime.getFullYear();            //salvando o ano automatico em uma variavel
 
-    if(anoAtualizado != anoAtual){
-        idade = resultado - 1;
-        alert("sua idade é : "+idade);
-        }   else if(anoNascido > resultado){   
-            alert("Sua idade é: " +resultado);
-        
-            }   else if(anoAtual != anoAtualizado){
-                idade = resultado + 1;
-                
-                alert("Sua idade é: "+idade);
+
+
+    if(anoAtual == anoAtualizado ){                           // ano colocado pelo usuario igual ao ano atual.
+        idade = resultado;
+        alert("sua idade é : "+idade);       
+            }   else if(anoAtual != anoAtualizado){           // ano colocado pelo usuario sendo diferente do ano atual 
+                idade = anoAtual - anoNascido;               
+                    alert("Sua idade é: "+idade);
             }
-
 }
