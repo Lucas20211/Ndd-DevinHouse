@@ -10,7 +10,7 @@ function cliqueAqui () {
     var pa = '';
     
     for( var conta = 1; conta <= termo; conta++){
-        pa += conta = (numeroIncial);
+        pa += conta = +numeroIncial; // problema de nao ir ate o 10
         numeroIncial += numeroRaiz;
     } 
     alert("Resultado:  " +pa);
