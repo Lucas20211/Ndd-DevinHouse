@@ -12,5 +12,5 @@ function cliqueAqui () {
         pa += numeroIncial; 
         numeroIncial += numeroRaiz;
     } 
-    alert("Resultado:  " +pa);
+    alert("Resultado:  \n\n"+pa);
 }
