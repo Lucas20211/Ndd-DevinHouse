@@ -6,11 +6,11 @@ function cliqueAqui () {
 
     var numeroIncial = parseFloat(prompt("digite seu Valor Inicial : " ));
     var numeroRaiz = parseFloat(prompt("Digite seu Valor Final : "));     
-    var pa = '';
+    var resultados = '';
     
     for( var conta = 1; conta <= 10; conta++){
-        pa += numeroIncial; 
+        resultados += numeroIncial; 
         numeroIncial += numeroRaiz;
     } 
-    alert("Resultado:  \n\n"+pa);
+    alert("Resultado:  \n\n"+resultados);
 }

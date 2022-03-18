@@ -11,5 +11,5 @@ function cliqueAqui (){
     for(var i = 0; i < letrasSobrenome.length; i++){
         contadorLetras++;         
     }
-    alert("Olá, " +sobreNome+ " Seu sobrenome contém " +contadorLetras+ " Letras");
+    alert("Olá, " +sobreNome+ ". Seu sobrenome contém " +contadorLetras+ " Letras");
 }
