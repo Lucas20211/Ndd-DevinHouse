@@ -8,4 +8,7 @@ const cidades = [
     { nome: 'Pato Branco', populacao: 84779 },
     ];
 
-    
+const nomeCidade = cidades.filter(city => city.nome == "Florianópolis");
+        nomeCidade.forEach(city => {
+            console.log(city);
+        });
