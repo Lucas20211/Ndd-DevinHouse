@@ -15,6 +15,12 @@
 
     console.log(nomes);
 
-  const nomeOrdem = nomes.sort(cidades.populacao);
+ nomes.sort(function(a, b){
+   if(a.populacao < b.populacao){
+     return -1;
+   }else {
+     return true;
+   }
+ });
         
-    console.log(nomeOrdem);
+    console.log(nomes);
