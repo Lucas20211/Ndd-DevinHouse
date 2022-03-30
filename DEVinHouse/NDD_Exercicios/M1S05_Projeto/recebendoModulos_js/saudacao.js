@@ -1,4 +1,4 @@
-import {saudacao} from "../EX_01/saudacao.js";
+import {saudacao} from "../EX_01/saudacao_01.js";
 
 //-----------------------------------------------------------------
 // Exercicio-01 [M1S05]
