@@ -1,19 +1,19 @@
 class Pedidos {
-    numeroPedido;
-    nomeCliente;
-    dataPedido;
-    estaPago;
-    listaPedido;
-
-    constructor(parametro){
-        console.log(parametro);
+    constructor(numeroPedido, nomeCliente, estaPago){
+        this.numeroPedido = numeroPedido;
+        this.nomeCliente = nomeCliente;
+        this.dataPedido = new Date( ).toLocaleDateString( );
+        this.estaPago = estaPago;
+        this.listaPedido = [];
     }
+    adicionarProduto(produto){ 
+           this.listaPedido.push(produto);
+        }   
 }
+    
+const pedido = new Pedidos('01', 'Lucas', false, []);
+    
+    pedido.adicionarProduto('mouse');
+    pedido.adicionarProduto('teclado');
 
-new Pedidos("oi Lucas");
-
-//const pedido = new Pedidos();
-
-
-
-//console.log(pedido);
+console.log(pedido);
