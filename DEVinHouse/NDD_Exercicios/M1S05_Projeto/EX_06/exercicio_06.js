@@ -1,12 +1,12 @@
 class Pedidos {
-    constructor(numeroPedido, nomeCliente, estaPago, quantidade, valor){
+    constructor(numeroPedido, nomeCliente, estaPago, quantidade){
         this.numeroPedido = numeroPedido;
         this.nomeCliente = nomeCliente;
         this.dataPedido = new Date( ).toLocaleDateString( );
         this.estaPago = estaPago;
         this.listaPedido = [];
         this.quantidade = quantidade;
-        this.valor = valor;
+        this.valor;
         
     }
     adicionarProduto(produto, preco){ 
