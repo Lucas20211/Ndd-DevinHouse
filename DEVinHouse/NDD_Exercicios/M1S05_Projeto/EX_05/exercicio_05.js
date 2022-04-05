@@ -1,7 +1,7 @@
 class Produto {
     constructor( codigoProduto, nomeProduto, precoProduto,quantiProduto){
-        this.codigoProduto = nomeProduto;
-        this.nomeProduto = codigoProduto;
+        this.codigoProduto = codigoProduto;
+        this.nomeProduto = nomeProduto;
         this.precoProduto = precoProduto;
         this.quantiProduto = quantiProduto;
     }
@@ -22,13 +22,9 @@ class Pedidos {
            this.listaPedido.push(produto);
         }   
 }
-
-
-const pedido = new Pedidos('01', 'Lucas', true, []);
+const pedido = new Pedidos('01', 'Lucas', true);
         pedido.adicionarProduto(mouseProduto);
         pedido.adicionarProduto(tecladoProduto);
 
-        console.log(mouseProduto);
-        console.log(tecladoProduto);
         console.log(pedido);
         

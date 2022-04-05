@@ -1,13 +1,13 @@
 class Pedidos {
-    constructor(numeroPedido, nomeCliente, dataPedido, estaPago, listaPedido){
+    constructor(numeroPedido, nomeCliente, estaPago, listaPedido){
         this.numeroPedido = numeroPedido;
         this.nomeCliente = nomeCliente;
-        this.dataPedido = dataPedido;
+        this.dataPedido = new Date( ).toLocaleDateString( );
         this.estaPago = estaPago;
         this.listaPedido = listaPedido;
     }
 }
 
-const pedido = new Pedidos('01', 'Lucas', new Date( ).toLocaleDateString( ), false, []);
+const pedido = new Pedidos('01', 'Lucas',  false, []);
 
 console.log(pedido);

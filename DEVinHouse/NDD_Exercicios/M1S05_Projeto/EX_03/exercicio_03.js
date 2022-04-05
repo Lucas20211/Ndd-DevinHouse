@@ -1,8 +1,12 @@
 class Produtos {
-    nome;
-    preco;
-    emEstoque;
-    quantidade;
+    constructor(nomeProduto, precoProduto, emEstoque, quantidade){
+        nomeProduto = nomeProduto;
+        precoProduto = precoProduto;
+        emEstoque = emEstoque;
+        quantidade = quantidade;
+
+    }
+   
 
 
 }
