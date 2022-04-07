@@ -1,39 +1,40 @@
-const options = {
-    method: "GET",
-    mode: "cors",
-    caches: "default"
-}
 
-const cep = document.getElementById("cep")
-cep.addEventListener("blur", (e) => {
-    let Cep = document.getElementById("cep").value;
-    console.log(Cep)
-    let search = cep.value.replace("-", "")
-    fetch(`https://viacep.com.br/ws/${search}/json/`, options).then((response) => {
-        response.json().then(data => {
-            console.log(data)
-            document.getElementById("bairro").value = data.bairro;
-            document.getElementById("ddd").value = data.ddd;            
-            document.getElementById("localidade").value = data.localidade;
-            document.getElementById("logradouro").value = data.logradouro;
-            document.getElementById("uf").value = data.uf;
-
-
-        })
-    })
-})
-
-function enviar() {
-    let bairro = document.getElementById("bairro").value;
-    let ddd = document.getElementById("ddd").value;    
-    let localidade = document.getElementById("localidade").value;
-    let logradouro = document.getElementById("logradouro").value;
-    let uf = document.getElementById("uf").value;
-    let json = {
-        "bairro": bairro,
-        "ddd": ddd,    
-        "localidade": localidade,
-        "logradouro": logradouro,
-        "uf": uf,
+        const limparFormulario = (endereco) =>{
+            document.getElementById('logradouro').value = ' ';
+            document.getElementById('bairro').value = ' ';
+            document.getElementById('localidade').value = ' ';
+            document.getElementById('uf').value = ' ';
+            document.getElementById('ddd').value = ' ';
+            document.getElementById('complemento').value = ' ';
+        }
+    const preencherFormulario = (endereco) =>{
+        document.getElementById('logradouro').value = endereco.logradouro;
+        document.getElementById('bairro').value = endereco.bairro;
+        document.getElementById('localidade').value = endereco.localidade;
+        document.getElementById('uf').value = endereco.uf;
+        document.getElementById('ddd').value = endereco.ddd;
+        document.getElementById('complemento').value = endereco.complemento;
     }
-}
+function enviar(){
+    const eNumero = (numero) => /^[0-9]+$/.test(numero);//Aqui estamos validando apenas numeros
+    const cepValido = (cep) => cep.length == 8 && eNumero(cep);// aqui estamos validando se esta correto a quantdade de numeros e se for so numeros
+    const pesquisarCep = async() => {
+        limparFormulario();// aqui é uma função pra limpar o formulario
+        const cep = document.getElementById('cep').value;
+        const url = `http://viacep.com.br/ws/${cep}/json/`;
+        if(cepValido(cep)){
+            const dados = await fetch(url);
+            const endereco = await dados.json();
+            if(endereco.hasOwnProperty('erro')){
+                alert("CEP não encontrado!!");
+            }else{
+                preencherFormulario(endereco);
+                console.log(endereco);
+            }
+        }else{
+            alert("CEP inválido!!");
+        }    
+    }//função assincrona
+    document.getElementById('consultar').addEventListener('click', pesquisarCep);
+    console.log(document.getElementById('cep').value);
+}//funcao de click
