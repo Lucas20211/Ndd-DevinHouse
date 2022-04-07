@@ -7,17 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 04</title>
 </head>
+<body style="background-color: bisque;">
 
 <form action="">
-    <label for="cep">Cep</label><br/><br/>
-    <input id="cep" type="text"><br/><br/>
+    <label for="cep">Cep</label><br>
+    <input id="cep" type="text" maxlength="9"><br>
+   
+    <label for="bairro">Bairro</label><br>
+    <input type="text" id="bairro"><br>
+    
+  
+    <label for="localidade">Localidade</label><br>
+    <input type="text" id="localidade"><br>
+   
+    <label for="logradouro">Logradouro</label><br>
+    <input type="text" id="logradouro"><br>
+   
+    <label for="uf">Uf</label><br>
+    <input type="text" id="uf"><br>
 
-
-    <button onclick="enviar()" id="btn">Enviar</button>
+    <input onclick="enviar()" type="button" value="Enviar">
 </form>
+
+
 <script src="./exercicio_04.js"></script>
 
-<body>
 
 </body>
 
