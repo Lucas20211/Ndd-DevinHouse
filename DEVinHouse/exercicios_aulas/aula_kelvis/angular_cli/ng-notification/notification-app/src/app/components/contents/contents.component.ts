@@ -16,7 +16,7 @@ export class ContentsComponent implements OnInit {
 
   ngOnInit(): void {
     this.http
-      .get<INotificacao[]>('/app/utils/notifications-mock')
+      .get<INotificacao[]>('http://localhost:3000/notificacoes')
       .subscribe((resultado) => {
         this.listaDeNotificacoes = resultado;
       });
