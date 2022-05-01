@@ -9,7 +9,19 @@ import { FooterComponent } from './component/footer/footer.component';
 import { ListComponent } from './component/list/list.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ListasComponent } from './pages/listas/listas.component';
+import { RouterModule, Route} from '@angular/router';
 
+
+const ROUTES: Route[] = [
+  {
+    path: 'inicio',
+    component: HomeComponent
+  },
+  {
+    path: 'listas',
+    component: ListasComponent
+  }
+];
 
 @NgModule({
   declarations: [
@@ -23,7 +35,8 @@ import { ListasComponent } from './pages/listas/listas.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
