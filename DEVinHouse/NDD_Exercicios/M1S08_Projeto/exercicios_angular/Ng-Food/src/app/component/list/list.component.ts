@@ -25,6 +25,11 @@ export class ListComponent implements OnInit {
 
     this.http.get<IListas[]>('http://localhost:3000/foods').subscribe((resultado)=>{
       this.listasdeProdutos = resultado;
-    })
+    });
+  }
+  exibircomida(){
+    let name = document.getElementById('listcomida')?.innerText;
+    alert('Você clicou na comida: ' + name+ '!')
+    
   }
 }

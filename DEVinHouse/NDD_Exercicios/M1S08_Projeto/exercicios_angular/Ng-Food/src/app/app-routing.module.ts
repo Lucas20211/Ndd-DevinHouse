@@ -11,7 +11,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'listas',
+    path: 'comidas',
     component: ListasComponent
   },
   {

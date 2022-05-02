@@ -1,4 +1,6 @@
+
 import { Component, OnInit } from '@angular/core';
+import { __values } from 'tslib';
 
 @Component({
   selector: 'ngf-main',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  pesquisa = document.getElementById('pesquisa')?.textContent;
+
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.pesquisa)
   }
 
 }

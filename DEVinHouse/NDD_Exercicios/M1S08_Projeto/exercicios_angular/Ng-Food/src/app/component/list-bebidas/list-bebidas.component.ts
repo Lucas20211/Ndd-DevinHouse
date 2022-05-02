@@ -24,6 +24,16 @@ export class ListBebidasComponent implements OnInit {
 
     this.http.get<IBebidas[]>('http://localhost:3000/drinks').subscribe((resultado)=>{
       this.listadeBebidas = resultado;
-    })
+    });
+
   }
+  exibirbebida(){
+    let name = document.getElementById('listbebidas')?.innerText;
+    console.log(name);
+    console.log(this.listadeBebidas);
+
+    alert('Você escolheu a bebida: '+name+'!');
+  };
 }
+
+
