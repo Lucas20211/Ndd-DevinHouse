@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Exercicio02Component implements OnInit {
 
-  constructor() { }
+        constructor() { }
 
-  ngOnInit(): void {
-  }
-
+        ngOnInit(): void {
+            function soma(valor1:number, valor2:number){
+              return valor1 + valor2;
+          }        
+          console.log('Exercicio 02:  '+soma(5, 10));
+      }
 }
