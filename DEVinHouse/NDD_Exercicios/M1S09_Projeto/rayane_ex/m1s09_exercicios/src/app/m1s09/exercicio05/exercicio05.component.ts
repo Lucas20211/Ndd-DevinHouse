@@ -15,12 +15,12 @@ class Animal{
 })
 export class Exercicio05Component implements OnInit {
 
-  constructor(nome: string, raca: string, cor: string, peso: number) { 
-        // this.nome = nome;
-        // this.raca = raca;
-        // this.corPelagem = cor;
-        // this.peso = peso; 
-  }
+  // constructor(nome: string, raca: string, cor: string, peso: number) { 
+  //       this.nome = nome;
+  //       this.raca = raca;
+  //       this.corPelagem = cor;
+  //       this.peso = peso; 
+  // }
 
   ngOnInit(): void {
   }
