@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 interface IListas{
@@ -16,26 +17,14 @@ interface IListas{
 export class ListComponent implements OnInit {
 
 
-  listasdeProdutos: IListas[] = [
-    {
-      id: 1,
-      name: "Ao molho",
-      description: "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
-      price: 19.9,
-      image: "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
-    },
-    {
-      id: 2,
-      name: "Veggie",
-      description: "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-      price: 21.9,
-      image: "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
-    },
-  ];
+  listasdeProdutos: IListas[] = [];
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-  }
 
+    this.http.get<IListas[]>('http://localhost:3000/foods').subscribe((resultado)=>{
+      this.listasdeProdutos = resultado;
+    })
+  }
 }

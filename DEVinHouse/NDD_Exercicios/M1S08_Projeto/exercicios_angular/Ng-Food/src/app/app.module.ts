@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule } from '@angular/core';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,19 +9,11 @@ import { FooterComponent } from './component/footer/footer.component';
 import { ListComponent } from './component/list/list.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ListasComponent } from './pages/listas/listas.component';
-import { RouterModule, Route} from '@angular/router';
+import { ListBebidasComponent } from './component/list-bebidas/list-bebidas.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule} from '@angular/common/http';
 
 
-const ROUTES: Route[] = [
-  {
-    path: 'inicio',
-    component: HomeComponent
-  },
-  {
-    path: 'listas',
-    component: ListasComponent
-  }
-];
 
 @NgModule({
   declarations: [
@@ -31,12 +23,13 @@ const ROUTES: Route[] = [
     FooterComponent,
     ListComponent,
     HomeComponent,
-    ListasComponent
+    ListasComponent,
+    ListBebidasComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(ROUTES)
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

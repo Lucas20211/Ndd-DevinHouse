@@ -10,7 +10,7 @@
         <h6 class="mb-0">{{itemProdutos.name}}</h6>
         <p class="mb-0 opacity-75">{{itemProdutos.description}}</p>
       </div>
-      <span class="text-nowrap">Preço: {{itemProdutos.price}}</span>
+      <span class="text-nowrap">Preço: {{itemProdutos.price | currency: 'BRL'}}</span>
     </div>
   </a>
 </div>

@@ -1,0 +1,12 @@
+$colorHarvey: #1f4037;
+$colorHarveylight: #99f2c8;
+
+
+footer{
+
+    background: $colorHarvey;  
+    
+    background: -webkit-linear-gradient(to right, $colorHarveylight, $colorHarvey); 
+    
+    background: linear-gradient(to right,  $colorHarvey, $colorHarveylight);
+}
