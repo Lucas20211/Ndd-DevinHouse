@@ -3,11 +3,12 @@
 // Os valores a serem somados devem ser passados como parâmetros da função e você que irá escolher os valores, 
 // não esqueça de declarar o tipo do retorno e o tipo dos parâmetros.
 
-let valor1:number;
-let valor2: number;
-
-function soma(valor1:number, valor2:number){
-    return valor1 + valor2;
+let objeto:{val1:number, val2:number} ={
+    val1:10,
+    val2:10
 }
 
-console.log('Exercicio 02:  '+soma(5, 10));
+function soma(objeto:any): number{
+    return objeto.val1 + objeto.val2;
+}
+console.log(soma(objeto));

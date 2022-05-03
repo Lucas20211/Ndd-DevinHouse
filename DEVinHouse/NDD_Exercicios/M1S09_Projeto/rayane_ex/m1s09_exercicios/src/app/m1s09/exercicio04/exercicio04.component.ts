@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'tsc-exercicio04',
   templateUrl: './exercicio04.component.html',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Exercicio04Component implements OnInit {
 
-  constructor() { }
+ 
+          constructor() {
 
-  ngOnInit(): void {
-  }
+          }
 
+          ngOnInit(): void {
+          }
 }
+     

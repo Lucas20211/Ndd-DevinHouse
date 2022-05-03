@@ -10,9 +10,15 @@ export class Exercicio02Component implements OnInit {
         constructor() { }
 
         ngOnInit(): void {
-            function soma(valor1:number, valor2:number){
-              return valor1 + valor2;
-          }        
-          console.log('Exercicio 02:  '+soma(5, 10));
+          let objeto:{val1:number, val2:number} ={
+            val1:10,
+            val2:10
+        }
+        
+        function soma(objeto:any): number{
+            return objeto.val1 + objeto.val2;
+        }
+        console.log(soma(objeto));
+        
       }
 }
