@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Alunos</h1>
+
+  <p>Aluno {{aluno.nome}} tem {{aluno.idade}} anos.</p>
+
+  <!-- <div class="mb-3">
+    <label for="nota" class="form-label">Informe a nota do aluno.</label>
+    <input [ngmodel]="aluno.nota"  type="number" class="form-control" id="nota" placeholder="Nota do aluno">
+  </div> -->
+
+
+  <h4>Esse aluno com nota {{aluno.nota}} está 
+      <span *ngIf="aluno.nota <5" class="badge bg-danger">Reprovado</span>
+      <span *ngIf="aluno.nota>7" class="badge bg-info">Aprovado</span>
+      <span *ngIf="aluno.nota>=4 && aluno.nota <= 7" class="badge bg-warning">de Exame</span>
+  </h4>
+
+
+  
+
+</div>
