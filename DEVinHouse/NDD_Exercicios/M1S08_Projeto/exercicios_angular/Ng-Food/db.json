@@ -1,45 +1,62 @@
 {
-  
-    
-      "foods": [
+    "bebidas": [
         {
-          "id": 1,
-          "name": "Ao molho",
-          "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
-          "price": 19.9,
-          "image": "assets/aomolho.jpg"
-        },
+            "id": 1,
+            "titulo": " BEBIDA COCA-COLA",
+            "enderecoImagem": "/assets/img/cocalata350.png",
+            "descricao": "Coca-cola Lata 350Ml",
+            "valor": 6.00
+          },
+          {
+            "id": 2,
+           " titulo": " BEBIDAS EISENBAHN PILSEN",
+            "enderecoImagem": "/assets/img/eisenbahnPilsen.png",
+            "descricao": "Eisenbahn Pilsen",
+            "valor": 9.00
+          },
+          {
+            "id": 3,
+            "titulo": " BEBIDAS PEPSI ",
+            "enderecoImagem": "/assets/img/pepsilata350.png",
+            "descricao": "Pepsi Lata",
+            "valor": 5.00
+          },
+          {
+           " id": 4,
+            "titulo": " BEBIDAS SUCO DE LARANJA",
+            "enderecoImagem": "/assets/img/sucodeLaranja.jpg",
+            "descricao": "Suco de Laranja",
+            "valor": 12.00
+          }
+    ],
+    "comidas": [
         {
-          "id": 2,
-          "name": "Veggie",
-          "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-          "price": 21.9,
-          "image": "assets/veggie.jpg"  
-        },
-        {
-          "id": 3,
-          "name": "A la Camarón",
-          "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-          "price": 25.9,
-          "image": "assets/camaron.jpg"
-        }
-      ],
-      "drinks": [
-      {
-        "id": 1,
-        "name": "Caipirinha de Vodkaaaaaaaaaaaa",
-        "description": "Vodka, limão, gelo e açucar",
-        "price": 14.00,
-        "image": "assets/caipirinhaVodka.jpg"
-      },
-      {
-      "id": 2,
-      "name": "Capiirinha de Vinho",
-      "description": "Cachaça, limão, vinho, açucar e gelo",
-      "price": 15.00,
-      "image": "assets/caipirinhadeVinho.jpg"
-      }
+            "id": 10,
+           " titulo": " BATATA FRITA",
+            "enderecoImagem": "/assets/img/batataFrita.png",
+            "descricao": "Porção batata frita de 500g",
+            "valor":  18.00
+          },
+          {
+            "id": 11,
+            "titulo": " COMBO HAMBURGUER",
+            "enderecoImagem": "/assets/img/combohamburguerCoca.png",
+            "descricao": "Combo Hamburguer com Coca-Cola",
+            "valor": 26.00
+          },
+          {
+            "id": 12,
+            "titulo": " PORÇÃO CAMARÃO",
+            "enderecoImagem": "/assets/img/porcaoCamarao.jpg",
+            "descricao": "Porção Camarão de 600g",
+            "valor": 23.00
+          },
+          {
+            "id": 13,
+            "titulo": " PORÇÃO PEIXE",
+            "enderecoImagem": "/assets/img/porcaoPeixe.jpg",
+            "descricao": "Porção Peixe 600g",
+            "valor": 24.00
+          }
     ]
-  
-  
 }

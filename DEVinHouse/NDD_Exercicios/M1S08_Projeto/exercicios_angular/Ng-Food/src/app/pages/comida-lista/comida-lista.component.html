@@ -1,0 +1,14 @@
+
+<div class="container justify-content-evenly row p-3 my-4">   
+  <div *ngFor="let comida of listaComidas" class="card col-md-4 col-lg-6 m-2" style="width: 13rem;">
+      <img src="{{comida.enderecoImagem}}" class="card-img-top">
+          <div class="card-body">
+              <h5 class="card-title">{{comida.titulo}}</h5>
+              <p class="card-text">{{comida.descricao}}</p>
+              <hr>
+              <p class="card-text">{{comida.valor | currency: 'BRL'}}</p>
+          </div>
+        <button class="btn btn-primary">Comprar</button>
+        <button class="btn btn-danger m-2">Excluir</button>
+  </div>
+</div>

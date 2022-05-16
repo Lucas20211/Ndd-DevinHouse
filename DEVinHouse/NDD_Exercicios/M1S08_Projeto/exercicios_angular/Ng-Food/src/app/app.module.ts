@@ -1,34 +1,53 @@
-import {NgModule } from '@angular/core';
-
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './component/header/header.component';
-import { MainComponent } from './component/main/main.component';
-import { FooterComponent } from './component/footer/footer.component';
-import { ListComponent } from './component/list/list.component';
-import { HomeComponent } from './pages/home/home.component';
-import { ListasComponent } from './pages/listas/listas.component';
-import { ListBebidasComponent } from './component/list-bebidas/list-bebidas.component';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule} from '@angular/common/http';
+
+import { AppComponent } from './app.component';
+import { ContentComponent } from './components/content/content.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ComidaListaComponent } from './pages/comida-lista/comida-lista.component';
+import { BebidaListaComponent } from './pages/bebida-lista/bebida-lista.component';
+import { Route, RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+
+
+const ROUTES: Route[] = [
+  {
+    path: '',
+    component: HomeComponent
+  },
+  {
+    path: 'comidas',
+    component: ComidaListaComponent
+  },
+  {
+    path: 'bebidas',
+    component: BebidaListaComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  }
+]
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    ContentComponent,
     HeaderComponent,
-    MainComponent,
     FooterComponent,
-    ListComponent,
     HomeComponent,
-    ListasComponent,
-    ListBebidasComponent,
+    AboutComponent,
+    ComidaListaComponent,
+    BebidaListaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    RouterModule.forRoot(ROUTES),
     HttpClientModule
   ],
   providers: [],

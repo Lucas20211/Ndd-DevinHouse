@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "NG-FOOD": {
+    "NG-Food": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -50,12 +50,17 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
+              
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,10 +99,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "NG-FOOD:build:production"
+              "browserTarget": "NG-Food:build:production"
             },
             "development": {
-              "browserTarget": "NG-FOOD:build:development"
+              "browserTarget": "NG-Food:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -105,7 +110,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "NG-FOOD:build"
+            "browserTarget": "NG-Food:build"
           }
         },
         "test": {
@@ -129,5 +134,5 @@
       }
     }
   },
-  "defaultProject": "NG-FOOD"
+  "defaultProject": "NG-Food"
 }
