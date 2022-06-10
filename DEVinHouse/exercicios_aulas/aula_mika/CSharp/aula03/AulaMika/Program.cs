@@ -1,17 +1,18 @@
-﻿namespace ProjetoDev;
+﻿namespace VsBug;
 
-class Program{
-    static void Main(string[] args)
+class Program
+{
+    public static void Main(string[] args)
     {
-        string nome = "Lucas";
-        string sobrenome = "Pinheiro";
+        Console.Clear();
+        System.Console.WriteLine(" MODO EDIÇÃO DE CÓDIGO ");
+        System.Console.WriteLine(" ================================= ");
+        Run();
+    }
 
-        // string nomeCompleto1 = nome + " " + sobrenome;
-
-        string nomecompleto2 = $"O meu nome completo é {nome} {sobrenome}";
-
-        
-        System.Console.WriteLine(nomecompleto2);
-
+    private static void Run()
+    {
+        throw new NotImplementedException();
     }
 }
+    
