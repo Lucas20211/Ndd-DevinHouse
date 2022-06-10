@@ -1,4 +1,6 @@
-﻿namespace GeraEstoque;
+﻿using System.Text;
+
+namespace GeraEstoque;
 class Program
 {
     static void Main(string[] args)
@@ -12,6 +14,7 @@ class Program
         4  Excluir produto
         0  Sair
         ");
+        
     }
 }
 
