@@ -50,7 +50,7 @@ public static class Menu
   static void ShowOptions()
   {
     Console.SetCursorPosition(2, 2);
-    Console.WriteLine("VsBUG EDITOR v0.1");
+    Console.WriteLine("VsBUG EDITOR v0.2");
     Console.SetCursorPosition(2, 3);
     Console.WriteLine("=================");
 
