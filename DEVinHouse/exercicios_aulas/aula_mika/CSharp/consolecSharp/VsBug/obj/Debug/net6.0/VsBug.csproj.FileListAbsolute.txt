@@ -1,0 +1,15 @@
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\bin\Debug\net6.0\VsBug.exe
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\bin\Debug\net6.0\VsBug.deps.json
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\bin\Debug\net6.0\VsBug.runtimeconfig.json
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\bin\Debug\net6.0\VsBug.dll
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\bin\Debug\net6.0\VsBug.pdb
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\VsBug.csproj.AssemblyReference.cache
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\VsBug.GeneratedMSBuildEditorConfig.editorconfig
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\VsBug.AssemblyInfoInputs.cache
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\VsBug.AssemblyInfo.cs
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\VsBug.csproj.CoreCompileInputs.cache
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\VsBug.dll
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\refint\VsBug.dll
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\VsBug.pdb
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\VsBug.genruntimeconfig.cache
+X:\Cursos_DEV\LucasTrabalho\CSharp\VsBug\VsBug\obj\Debug\net6.0\ref\VsBug.dll
