@@ -1,0 +1,3 @@
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aulaJaime\obj\Debug\aulaJaime.csproj.AssemblyReference.cache
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aulaJaime\obj\Debug\aulaJaime.csproj.SuggestedBindingRedirects.cache
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aulaJaime\obj\Debug\aulaJaime.csproj.CoreCompileInputs.cache
