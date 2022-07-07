@@ -1,0 +1,15 @@
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\Aula-06-07.csproj.AssemblyReference.cache
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\Aula-06-07.GeneratedMSBuildEditorConfig.editorconfig
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\Aula-06-07.AssemblyInfoInputs.cache
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\Aula-06-07.AssemblyInfo.cs
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\Aula-06-07.csproj.CoreCompileInputs.cache
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\bin\Debug\net6.0\Aula-06-07.exe
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\bin\Debug\net6.0\Aula-06-07.deps.json
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\bin\Debug\net6.0\Aula-06-07.runtimeconfig.json
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\bin\Debug\net6.0\Aula-06-07.dll
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\bin\Debug\net6.0\Aula-06-07.pdb
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\Aula-06-07.dll
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\refint\Aula-06-07.dll
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\Aula-06-07.pdb
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\Aula-06-07.genruntimeconfig.cache
+X:\Cursos_DEV\curso_senai\DEVinHouse\exercicios_aulas\aula_jamil\aula_06_07\Aula-06-07\obj\Debug\net6.0\ref\Aula-06-07.dll

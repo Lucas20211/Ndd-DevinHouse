@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "bwkoesLIHR/D41zzQLRomY5/so0YZMCSHpD3cxP40ciXy0dQPFuWphwNckMA50ydvkTRYAapqjIWfFyd55vhng==",
+  "success": true,
+  "projectFilePath": "X:\\Cursos_DEV\\curso_senai\\DEVinHouse\\exercicios_aulas\\aula_jamil\\aula_06_07\\projetoAula\\exemplo-tdd-crud\\exemplo-crud-tdd-api\\exemplo-crud-tdd-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
